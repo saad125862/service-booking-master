@@ -27,7 +27,9 @@
 
 | # | Decision | Why |
 |---|---|---|
-| 1 | **PostgreSQL + raw SQL via `pg`, migrations with `node-pg-migrate`** | The spec's hardest rule is *no conflicting bookings*. PostgreSQL can enforce it **in the database** with an exclusion constraint, which Prisma and most ORMs can't model natively. Raw SQL keeps it explicit and explainable. |
+| 1 | **PostgreSQL + Prisma 7 (client, `@prisma/adapter-pg`, Prisma Migrate)** *(changed from raw SQL at the user's request)* | Models and queries go through Prisma. Prisma's schema language can't express the *no overlapping bookings* GiST exclusion constraints or CHECKs, so they are hand-written SQL appended to the init migration. The database still enforces conflicts, and the app maps the violation to `409`. |
+| 1b | **Swagger UI at `/api/docs`** from a hand-written `docs/openapi.yaml` | Interactive API docs with a Bearer "Authorize" button; doubles as the API documentation deliverable. |
+| 1c | **Multilingual AI assistant: English, Bangla (বাংলা) and Banglish** | The assistant detects the language of each user message and answers in the same one (Banglish = Bangla in Latin letters). It understands all three for intent and recommendations. |
 | 2 | **Exclusion constraint for conflicts** (`btree_gist`) | Race-condition-proof. Two simultaneous requests can't both succeed, because the DB rejects the second. App-level checks alone would be racy. |
 | 3 | **Single JWT access token (7-day expiry)**, stored in secure storage | Simple and sufficient. Refresh tokens are a documented stretch goal, with the trade-off stated in the README. |
 | 4 | **Riverpod without code generation** (`Notifier` / `AsyncNotifier`) | Avoids the `build_runner` build step and its failure modes in a 72-hour window, and the code stays easy to explain. |
