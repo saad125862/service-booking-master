@@ -22,5 +22,5 @@ Umbrella repository for the Flutter technical assessment. It holds the plan, sha
 | Database (Prisma, DB-enforced booking conflicts) | Done |
 | Backend: auth, users, services, availability, bookings, admin | Done, 23 integration tests |
 | Backend: AI assistant (English, Bangla, Banglish) and Swagger docs | Done |
-| Deploy to Render + Neon | Next |
+| Deploy to Render + Neon | Done: [live API](https://seba-api-0062.onrender.com), [Swagger docs](https://seba-api-0062.onrender.com/api/docs) |
 | Flutter app | Planned |
