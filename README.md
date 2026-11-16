@@ -37,5 +37,5 @@ More: [customer, AI assistant, payments and admin screens](https://github.com/sa
 | Flutter booking flow, my bookings, profile edit, AI chat, notifications, sidebar, dark / light mode | Done |
 | Admin side: dashboard, bookings, dynamic add-service form with custom fields, payment options, discount approvals, sales reports | Done |
 | Online card / wallet payments (SSLCommerz, aamarPay, demo checkout), AI sends the exact-amount pay link | Done, 79 backend tests + 130 app tests |
-| Dark premium UI and motion, release APK | Done: [Seba v1.0.1 APK](https://github.com/saad125862/service-booking-app/releases/tag/v1.0.1) |
+| Dark premium UI and motion, release APK | Done: [Seba v1.0.2 APK](https://github.com/saad125862/service-booking-app/releases/tag/v1.0.2) |
 | Emulator testing, demo video | Next (yours) |
