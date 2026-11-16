@@ -1,0 +1,24 @@
+# The code repos live inside this folder but are separate git repositories
+/service-booking-backend/
+/service-booking-app/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.jks
+*.keystore
+key.properties
+
+# Build artifacts
+*.apk
+node_modules/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
