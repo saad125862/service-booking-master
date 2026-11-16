@@ -28,4 +28,5 @@ Umbrella repository for the Flutter technical assessment. It holds the plan, sha
 | Flutter booking flow, my bookings, profile edit, AI chat, notifications, sidebar, dark / light mode | Done |
 | Admin side: dashboard, bookings, dynamic add-service form with custom fields, payment options, discount approvals, sales reports | Done |
 | Online card / wallet payments (SSLCommerz, aamarPay, demo checkout), AI sends the exact-amount pay link | Done, 79 backend tests + 130 app tests |
-| UI / UX animations, final release APK, GitHub Release, demo video | Next (animation choices come first) |
+| Dark premium UI and motion, release APK | Done: [Seba v1.0.0 APK](https://github.com/saad125862/service-booking-app/releases/tag/v1.0.0) |
+| Emulator testing, demo video | Next (yours) |
