@@ -4,7 +4,7 @@ Umbrella repository for the Flutter technical assessment. It holds the plan, sha
 
 | Part | Repository | Stack |
 |---|---|---|
-| Mobile app | `service-booking-app` (link added when created) | Flutter, Riverpod, go_router, dio |
+| Mobile app | [service-booking-app](https://github.com/saad125862/service-booking-app) | Flutter, Riverpod, go_router, dio |
 | Backend API | [service-booking-backend](https://github.com/saad125862/service-booking-backend) | Node.js, Express 5, PostgreSQL, Prisma, JWT, Swagger, Gemini |
 
 ## Contents
@@ -23,4 +23,5 @@ Umbrella repository for the Flutter technical assessment. It holds the plan, sha
 | Backend: auth, users, services, availability, bookings, admin | Done, 23 integration tests |
 | Backend: AI assistant (English, Bangla, Banglish) and Swagger docs | Done |
 | Deploy to Render + Neon | Done: [live API](https://seba-api-0062.onrender.com), [Swagger docs](https://seba-api-0062.onrender.com/api/docs) |
-| Flutter app | Planned |
+| Flutter foundation + authentication (persistent session) | Done |
+| Flutter: catalog, booking, my bookings, profile, AI chat | In progress |
