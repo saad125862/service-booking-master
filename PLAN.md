@@ -270,13 +270,13 @@ Assumptions, all configurable in `constants.js`:
 
 ## 11. Deliverables checklist
 
-- [ ] Flutter repo (clean history, README with screenshots)
-- [ ] Backend repo (README, `.env.example`, `docker-compose.yml`)
-- [ ] DB schema + ER diagram (Mermaid source and PNG) + setup instructions
-- [ ] API docs (OpenAPI + README endpoint tables with example responses)
+- [x] Flutter repo (clean history, README with screenshots)
+- [x] Backend repo (README, `.env.example`, `docker-compose.yml`)
+- [x] DB schema + ER diagram (Mermaid source and PNG) + setup instructions
+- [x] API docs (OpenAPI + README endpoint tables with example responses)
 - [ ] Demo video (3–5 min)
-- [ ] Release APK (built with the production API URL, tested on a device), **published as a GitHub Release asset** on the Flutter repo (see section 11b)
-- [ ] Screenshots of main screens
+- [x] Release APK (built with the production API URL, tested on a device), **published as a GitHub Release asset** on the Flutter repo (see section 11b)
+- [x] Screenshots of main screens
 - [ ] Form submission at https://forms.gle/HdGXLww44KRSDsEh7
 
 ### 11b. APK distribution via GitHub Releases
