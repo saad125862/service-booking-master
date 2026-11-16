@@ -317,3 +317,17 @@ Assumptions, all configurable in `constants.js`:
 4. Business timezone: **which one should `BUSINESS_TZ` be?** (It defaults to UTC if you don't say.)
 5. Single JWT with 7-day expiry (no refresh tokens).
 6. Debug-keystore-signed release APK is acceptable (a store-signed build isn't required).
+
+---
+
+## 14. Added scope: admin accounts (requested during the build)
+
+Two kinds of accounts: **customer** and **admin**. Admins add services ("products") and track sales.
+
+- **Roles:** `role` on users (`user` | `admin`). Public registration always creates a customer. The demo admin is seeded. Admin routes need an admin-role JWT (the `X-Admin-Key` ops route stays).
+- **Dynamic add-service form:** the form is schema-driven. Admins can define extra fields (text, long text, number, yes/no, dropdown, required or not) that then appear on the form for every service. Field definitions live in `service_fields`; per-service values live in a JSONB `attributes` column, validated against the definitions. Customers see the filled values as "Extra details" on the service page.
+- **Dashboard:** sales today and this month, bookings by status, top services, recent bookings, bookings per day.
+- **Reports:** date range plus grouping by day, service or category; revenue (confirmed and completed bookings) and booking counts; CSV export.
+- **Bookings management:** admins list all bookings and confirm, complete or cancel them (replaces the demo-only curl step).
+- **Flutter:** admin accounts get their own shell and tabs (Dashboard, Services, Bookings, Reports, Profile), guarded by role.
+- **Order of work:** finish the customer flow first (booking, my bookings, profile, AI chat), then the admin backend, then the admin screens.

@@ -24,4 +24,6 @@ Umbrella repository for the Flutter technical assessment. It holds the plan, sha
 | Backend: AI assistant (English, Bangla, Banglish) and Swagger docs | Done |
 | Deploy to Render + Neon | Done: [live API](https://seba-api-0062.onrender.com), [Swagger docs](https://seba-api-0062.onrender.com/api/docs) |
 | Flutter foundation + authentication (persistent session) | Done |
-| Flutter: catalog, booking, my bookings, profile, AI chat | In progress |
+| Flutter catalog: search, filters, featured, details | Done |
+| Flutter booking flow, my bookings, profile edit, AI chat | In progress |
+| Admin side: roles, dynamic add-service form with custom fields, dashboard, sales reports | Planned |
