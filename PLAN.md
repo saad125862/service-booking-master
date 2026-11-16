@@ -1,4 +1,6 @@
-# Service Booking & Management App: Implementation Plan
+# Seba (সেবা): Service Booking & Management App: Implementation Plan
+
+**App name:** Seba (সেবা, "service"). Logo: orange rounded square with a white circle above a cupped bowl. Repo names stay descriptive (`service-booking-*`).
 
 **Stack (decided):** Flutter + Riverpod · Node.js/Express · PostgreSQL · Gemini
 **Deadline:** 72 hours · **Status:** plan only, no code written yet

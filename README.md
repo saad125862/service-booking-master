@@ -1,4 +1,4 @@
-# Service Booking & Management App: Master Repository
+# Seba (সেবা): Service Booking & Management App, Master Repository
 
 Umbrella repository for the Flutter technical assessment. It holds the plan, shared documentation and links to the two code repositories.
 
