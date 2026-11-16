@@ -275,7 +275,7 @@ Assumptions, all configurable in `constants.js`:
 - [x] DB schema + ER diagram (Mermaid source and PNG) + setup instructions
 - [x] API docs (OpenAPI + README endpoint tables with example responses)
 - [ ] Demo video (3–5 min)
-- [x] Release APK (built with the production API URL, tested on a device), **published as a GitHub Release asset** on the Flutter repo (see section 11b)
+- [x] Release APK (built with the production API URL, tested on an Android emulator; a real-phone check is still open), **published as a GitHub Release asset** on the Flutter repo (see section 11b)
 - [x] Screenshots of main screens
 - [ ] Form submission at https://forms.gle/HdGXLww44KRSDsEh7
 
