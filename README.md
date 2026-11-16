@@ -20,10 +20,12 @@ Umbrella repository for the Flutter technical assessment. It holds the plan, sha
 |---|---|
 | Plan, repos, Docker | Done |
 | Database (Prisma, DB-enforced booking conflicts) | Done |
-| Backend: auth, users, services, availability, bookings, admin | Done, 23 integration tests |
+| Backend: auth, users, services, availability, bookings, admin, notifications, discounts, payments | Done |
 | Backend: AI assistant (English, Bangla, Banglish) and Swagger docs | Done |
 | Deploy to Render + Neon | Done: [live API](https://seba-api-0062.onrender.com), [Swagger docs](https://seba-api-0062.onrender.com/api/docs) |
 | Flutter foundation + authentication (persistent session) | Done |
 | Flutter catalog: search, filters, featured, details | Done |
-| Flutter booking flow, my bookings, profile edit, AI chat | In progress |
-| Admin side: roles, dynamic add-service form with custom fields, dashboard, sales reports | Planned |
+| Flutter booking flow, my bookings, profile edit, AI chat, notifications, sidebar, dark / light mode | Done |
+| Admin side: dashboard, bookings, dynamic add-service form with custom fields, payment options, discount approvals, sales reports | Done |
+| Online card / wallet payments (SSLCommerz, aamarPay, demo checkout), AI sends the exact-amount pay link | Done, 79 backend tests + 130 app tests |
+| UI / UX animations, final release APK, GitHub Release, demo video | Next (animation choices come first) |
