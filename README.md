@@ -7,6 +7,15 @@ Umbrella repository for the Flutter technical assessment. It holds the plan, sha
 | Mobile app | [service-booking-app](https://github.com/saad125862/service-booking-app) | Flutter, Riverpod, go_router, dio |
 | Backend API | [service-booking-backend](https://github.com/saad125862/service-booking-backend) | Node.js, Express 5, PostgreSQL, Prisma, JWT, Swagger, Gemini |
 
+
+## Screenshots
+
+<table>
+<tr><td align="center" valign="top"><img src="https://raw.githubusercontent.com/saad125862/service-booking-app/main/docs/screenshots/03-home.jpg" width="160" alt="Catalog"><br><sub>Catalog</sub></td><td align="center" valign="top"><img src="https://raw.githubusercontent.com/saad125862/service-booking-app/main/docs/screenshots/07-booking-form.jpg" width="160" alt="Booking with discount"><br><sub>Booking with discount</sub></td><td align="center" valign="top"><img src="https://raw.githubusercontent.com/saad125862/service-booking-app/main/docs/screenshots/11-booking-confirmed-pay.jpg" width="160" alt="Online payment"><br><sub>Online payment</sub></td><td align="center" valign="top"><img src="https://raw.githubusercontent.com/saad125862/service-booking-app/main/docs/screenshots/49-assistant-discount-approved.jpg" width="160" alt="AI discount approval"><br><sub>AI discount approval</sub></td><td align="center" valign="top"><img src="https://raw.githubusercontent.com/saad125862/service-booking-app/main/docs/screenshots/23-admin-dashboard.jpg" width="160" alt="Admin dashboard"><br><sub>Admin dashboard</sub></td><td align="center" valign="top"><img src="https://raw.githubusercontent.com/saad125862/service-booking-app/main/docs/screenshots/37-admin-add-service-photo-and-fields.jpg" width="160" alt="Dynamic service form"><br><sub>Dynamic service form</sub></td></tr>
+</table>
+
+More: [customer, AI assistant, payments and admin screens](https://github.com/saad125862/service-booking-app#screenshots).
+
 ## Contents
 - [PLAN.md](PLAN.md): implementation plan (architecture, database design, API, timeline, deliverables)
 
