@@ -277,7 +277,7 @@ Assumptions, all configurable in `constants.js`:
 
 ### 11b. APK distribution via GitHub Releases
 
-1. Build: `flutter build apk --release --dart-define=API_BASE_URL=https://<service>.onrender.com/api/v1` → `build/app/outputs/flutter-apk/app-release.apk`.
+1. Build: `flutter build apk --release --dart-define=API_BASE_URL=https://<service>.onrender.com/api/v1` → `build/app/outputs/flutter-apk/app-release.apk`. **Build with `kotlin.incremental=false`** (set `kotlin.incremental=false` in the app's `android/gradle.properties`) for the final release build.
 2. Rename the file to something clear, e.g. `service-booking-v1.0.0.apk`. **Never commit the APK to git**; keep `*.apk` in `.gitignore`.
 3. Tag the commit (`v1.0.0`) and create a GitHub Release on `service-booking-app` with the APK as the release asset, e.g. `gh release create v1.0.0 <apk> --title "v1.0.0" --notes "..."` (needs the `gh` CLI authenticated, or upload through the GitHub web UI).
 4. Release notes: features, the API URL it points to, the demo login, the cold-start warning, and install steps (allow "install unknown apps").
